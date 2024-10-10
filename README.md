@@ -61,7 +61,7 @@ If You have a sagemaker Studio Domain already set up, ignore the first item, how
 ## To run this Streamlit App on AWS EC2 (I tested this on the Ubuntu Image)
 * [Create a new ec2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 * Expose TCP port range 8500-8510 on Inbound connections of the attached Security group to the ec2 instance. TCP port 8501 is needed for Streamlit to work. See image below
-* <img src="images/sg-rules.PNG" width="600"/>
+* <img src="images/sg-rules.png" width="600"/>
 * EC2 [instance profile role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html) has the required permissions to access the services used by this application mentioned above.
 * [Connect to your ec2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
 * Run the appropiate commands to update the ec2 instance (`sudo apt update` and `sudo apt upgrade` -for Ubuntu)
