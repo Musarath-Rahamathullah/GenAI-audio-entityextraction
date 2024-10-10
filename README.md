@@ -25,7 +25,7 @@ There are two files of interest.
 
 ## To run this Streamlit App on Sagemaker Studio follow the steps below:
 
-<img src="images/chat-preview.JPG" width="800"/>
+<img src="images/chat-preview.JPEG" width="800"/>
 
 ## Configuration
 The application's behavior can be customized by modifying the `config.json` file. Here are the available options:
